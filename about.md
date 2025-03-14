@@ -1,4 +1,4 @@
-## layout: page title: About permalink: /about/
+## About
 
 Here, I share my journey and the knowledge I’ve gained over years of crafting innovative software solutions and mentoring developers.
 
@@ -10,4 +10,4 @@ Through articles, tips, and insights on software development, I aim to inspire o
 
 ### Contact me
 
-rodrigoffinger@gmail.com
+[rodrigoffinger@gmail.com](mailto:rodrigoffinger@gmail.com)
