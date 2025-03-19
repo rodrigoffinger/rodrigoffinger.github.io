@@ -4,6 +4,8 @@ tags: []
 published: true
 date: '2025-03-17'
 ---
+![https://raw.githubusercontent.com/rodrigoffinger/rodrigoffinger.github.io/master/images/typescript-compiler-go.png](https://raw.githubusercontent.com/rodrigoffinger/rodrigoffinger.github.io/master/images/typescript-compiler-go.png)
+
 **The Controversy**
 
 Microsoft's decision to port the TypeScript compiler to Go has sparked significant debate within the development community. Traditionally, Microsoft's internal projects have favored C#, a language they developed and extensively promote. The choice to use Go instead has led to discussions about the reasons behind this decision and its implications for the .NET ecosystem.​
