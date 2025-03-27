@@ -31,27 +31,12 @@ They allow you to keep your app responsive while offloading work to run independ
 
 1.  **Create a class that inherits from** `BackgroundService`**:**
     
-
-```javascript
-public class MyBackgroundService : BackgroundService
-{
-    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
-    {
-        while (!stoppingToken.IsCancellationRequested)
-        {
-            // Your background task logic here
-            await Task.Delay(5000, stoppingToken);
-        }
-    }
-}
-```
-
+    ![https://raw.githubusercontent.com/rodrigoffinger/rodrigoffinger.github.io/master/images/background-services-csharp-1.png](https://raw.githubusercontent.com/rodrigoffinger/rodrigoffinger.github.io/master/images/background-services-csharp-1.png)
+    
 2.  **Register it in your** `Startup.cs` **or Program.cs:**
     
-
-```javascript
-builder.Services.AddHostedService<MyBackgroundService>();
-```
+    ![https://raw.githubusercontent.com/rodrigoffinger/rodrigoffinger.github.io/master/images/background-services-csharp-2.png](https://raw.githubusercontent.com/rodrigoffinger/rodrigoffinger.github.io/master/images/background-services-csharp-2.png)
+    
 
 #### 🧵 Things to Keep in Mind
 
